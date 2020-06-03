@@ -11,9 +11,3 @@ def groupAnagrams(strs):
 
 print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 print(groupAnagrams(["",'b']))
-
-
-total = 0
-for abc in range(5):
-    total = total + abc
-print(total)
