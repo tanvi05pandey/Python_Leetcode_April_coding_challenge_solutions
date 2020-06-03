@@ -15,7 +15,7 @@
 # we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
 # we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of last stone.
 
-#the below method is silly and naive. A better approach is using heap. Follow the program written after this.
+#the below method is naive. A better approach is using heap. Follow the program written after this.
 # def lastStoneWeight(stones):
 #     s = sorted(stones)
 #     if len(stones) == 1:
