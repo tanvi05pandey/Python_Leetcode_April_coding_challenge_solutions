@@ -29,12 +29,8 @@ def isHappy(n):
         return sum(map(lambda x:int(x)**2, str(num)))
     slow, fast = n, next_num(n)
     while slow != fast and fast != 1:
-        print("slow: ",slow)
-        print("fast: ",fast)
         slow = next_num(slow)
-        print("new slow: ",slow)
         fast = next_num(next_num(fast))
-        print("new fast: ",fast)
     return fast == 1 or not slow == fast
 
 print(isHappy(2))
